@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const FormStyle = styled.form`
   display: grid;
   grid-template-columns: 1fr auto;
-  background-color: ${(props) => props.theme.corSecundaria};
+  background-color: ${(props) => props.theme.secondaryColor};
   padding: 32px;
   border-radius: 12px;
   margin-top: 40px;
@@ -11,16 +11,16 @@ export const FormStyle = styled.form`
 
 export const InputStyle = styled.input`
   padding: 0 16px;
-  outline-color: ${(props) => props.theme.corPrincipal};
+  outline-color: ${(props) => props.theme.mainColor};
 `
 
 export const SearchButton = styled.button`
-  background-color: ${(props) => props.theme.corPrincipal};
-  border: 1px solid ${(props) => props.theme.corPrincipal};
+  background-color: ${(props) => props.theme.mainColor};
+  border: 1px solid ${(props) => props.theme.mainColor};
   height: 40px;
   padding: 0 16px;
   font-size: 18px;
-  color: var(--cor-secundaria);
+  color: ${(props) => props.theme.secondaryColor};
   margin-left: 8px;
   cursor: pointer;
 `

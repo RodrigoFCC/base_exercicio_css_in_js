@@ -1,4 +1,4 @@
-import { Header } from './style'
+import { Header } from './styles'
 
 export type Props = {
   children: string

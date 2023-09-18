@@ -1,10 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
-:root {
-  --cor-principal: #a7727d;
-  --cor-secundaria: #f9f5e7;
-}
 
 * {
   margin: 0;
