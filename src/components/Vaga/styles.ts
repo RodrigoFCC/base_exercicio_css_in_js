@@ -11,6 +11,12 @@ export const LiVaga = styled.li`
   &:hover {
     color: ${(props) => props.theme.secondaryColor};
     background-color: ${(props) => props.theme.mainColor};
+
+    a {
+      border-color: ${(props) => props.theme.mainColor};
+      background-color: ${(props) => props.theme.secondaryColor};
+      color: ${(props) => props.theme.mainColor};
+    }
   }
 `
 export const H3Vaga = styled.h3`
@@ -32,11 +38,5 @@ export const LinkVaga = styled.a`
 
   @media (max-width: 768px) {
     display: block;
-  }
-
-  &:hover {
-    border-color: ${(props) => props.theme.mainColor};
-    background-color: ${(props) => props.theme.secondaryColor};
-    color: ${(props) => props.theme.mainColor};
   }
 `
